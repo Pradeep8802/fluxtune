@@ -10,20 +10,24 @@ class model:
     def predict(self, X):
         return X * self.factor
 
-# Create an expert
+# Defining experts
+# singlex expert
 expert1 = Expert(model(1), name="Expert1")
 
-# Create an ExpertManager
+# Creating an ExpertManager
 expert_manager = ExpertManager(experts=[expert1])
 
 # Initialize the Naive algorithm
 naive_alg = Naive(expertManager=expert_manager, max_mistakes=1, tol=0, verbose=True)
 
-# sample data
+# data
 X = np.array([1, 2, 3, 4, 5])
 y = np.array([1, 2, 3, 4, 5]) 
 
+# Evaluation
 naive_alg.eval(X, y)
+
+# prediction
 predictions = naive_alg.predict_alg(X)
 
 print("Predictions:", predictions)
