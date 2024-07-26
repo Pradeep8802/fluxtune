@@ -18,6 +18,10 @@ You can install Fluxtune via pip:
 ```bash
 pip install fluxtune
 ```
+## Requirements
+
+* **Python:** >= 3.7
+* **NumPy:** >= 3.11.8
 
 ## License
 Fluxtune is licensed under the MIT License. See the LICENSE file for more details.
