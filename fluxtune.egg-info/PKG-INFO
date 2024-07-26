@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fluxtune
-Version: 0.1
+Version: 0.1.1
 Summary: Flux tune is a library intended to implemnet various online machine learning algorithms and agents
 Home-page: https://github.com/Pradeep8802/fluxtune
 Author: SAI PRADEEP
@@ -16,6 +16,7 @@ Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
+License-File: LICENSE
 
 # Fluxtune
 ![Fluxtune](fluxtune.png)

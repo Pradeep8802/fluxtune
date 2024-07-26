@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fluxtune.egg-info/PKG-INFO
+fluxtune.egg-info/SOURCES.txt
+fluxtune.egg-info/dependency_links.txt
+fluxtune.egg-info/requires.txt
+fluxtune.egg-info/top_level.txt
