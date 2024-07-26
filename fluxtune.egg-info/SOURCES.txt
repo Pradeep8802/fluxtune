@@ -1,6 +1,9 @@
 LICENSE
 README.md
 setup.py
+fluxtune/__init__.py
+fluxtune/binpredalg.py
+fluxtune/experts.py
 fluxtune.egg-info/PKG-INFO
 fluxtune.egg-info/SOURCES.txt
 fluxtune.egg-info/dependency_links.txt
